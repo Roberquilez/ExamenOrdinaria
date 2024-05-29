@@ -103,7 +103,7 @@ public class Main {
         Proveedor proveedor1 = new Proveedor("Proveedor A", "contacto@proveedora.com");
         Inversionista inversionista1 = new Inversionista("Inversionista B", 200000.0);
         ActorIPO actor1 = new ActorIPO("Consultor C", "Consultoría legal");
-        
+
     }
 }
 
