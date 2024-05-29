@@ -123,10 +123,10 @@ class DocumentacionOperativa extends IPODocument {
 
 public class Main {
     public static void main(String[] args) {
-        DocumentacionLegal docLegal = new DocumentacionLegal("Contrato de IPO", "2024-05-29", "Abogado X", "Registro123");
+        DocumentacionLegal docLegal = new DocumentacionLegal("Contrato de IPO", "2024-05-29", "Abogado UAX", "Registro123");
         DocumentacionFinanciera docFinanciera = new DocumentacionFinanciera("Balance General", "2024-05-29", 1000000.0, 500000.0);
-        Proveedor proveedor1 = new Proveedor("Proveedor A", "contacto@proveedora.com");
-        Inversionista inversionista1 = new Inversionista("Inversionista B", 200000.0);
+        Proveedor proveedor1 = new Proveedor("Proveedor UAX", "contacto@myuax.com");
+        Inversionista inversionista1 = new Inversionista("Inversionista UAX", 200000.0);
         ActorIPO actor1 = new ActorIPO("Consultor C", "Consultoría legal");
 
         Scanner scanner = new Scanner(System.in);
