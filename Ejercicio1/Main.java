@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Crear una instancia de GlamourFinancialImplementation
+        // Creo una instancia de GlamourFinancialImplementation
         GlamourFinancialImplementation glamourFinancial = new GlamourFinancialImplementation();
 
-        // Establecer cotizaciones para diferentes mercados
+        // Establecezco cotizaciones para diferentes mercados
         glamourFinancial.setCotizacion("Nasdaq", 150.0);
         glamourFinancial.setCotizacion("NYSE", 200.0);
 

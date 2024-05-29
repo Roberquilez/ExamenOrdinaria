@@ -34,7 +34,7 @@ public class GlamourFinancialImplementation implements GlamourFinancial {
 
     @Override
     public double calcularPrecioValorEnLibros() {
-        double valorEnLibros = 1000000; // Este valor es un ejemplo, deberías reemplazarlo con el valor real
+        double valorEnLibros = 1000000; // Valor en libros de la empresa
         return calcularValorMercado() / valorEnLibros;
     }
 }

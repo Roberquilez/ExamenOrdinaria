@@ -66,7 +66,6 @@ class Empleado {
         System.out.println("Promedio académico: " + promedioAcademico);
     }
 
-    // Método añadido
     public List<Curso> getCursosTomados() {
         return cursosTomados;
     }
